@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/level"
     android:padding="16dp"
-    android:id="@+id/levelActivity"
     tools:context=".LevelActivity">
 
     <!-- Level 1 Button -->

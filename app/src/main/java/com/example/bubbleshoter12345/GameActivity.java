@@ -38,9 +38,9 @@ public class GameActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gamelayout);
+        setContentView(R.layout.activity_game);
 
-        gameLayout = findViewById(R.id.gameLayout);
+        gameLayout = findViewById(R.id.aimingLayout);
         aimingDevice = findViewById(R.id.aimingDevice);
 
         // Get screen dimensions

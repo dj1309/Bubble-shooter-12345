@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/level"
+    android:padding="16dp"
+    tools:context=".LevelActivity">
+
+    <!-- Level 1 Button -->
+    <Button
+        android:id="@+id/level1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/teal_200"
+        android:text="Level 1" />
+
+    <Button
+        android:id="@+id/level2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginBottom="81dp"
+        android:background="@color/teal_200"
+        android:text="Level 2" />
+
+    <Button
+        android:id="@+id/level3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginBottom="146dp"
+        android:background="@color/teal_200"
+        android:text="Level 3" />
+
+    <Button
+        android:id="@+id/level4Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginBottom="211dp"
+        android:background="@color/teal_200"
+        android:text="Level 4" />
+
+    <Button
+        android:id="@+id/level5Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="276dp"
+        android:background="@color/teal_200"
+        android:text="Level 5" />
+
+    <Button
+        android:id="@+id/level6Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginBottom="341dp"
+        android:background="@color/teal_200"
+        android:text="Level 6" />
+
+    <Button
+        android:id="@+id/level7Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginBottom="406dp"
+        android:background="@color/teal_200"
+        android:text="Level 7" />
+
+    <!-- Add more buttons for other levels -->
+
+</RelativeLayout>

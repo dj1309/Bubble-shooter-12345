@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bubbleshoter12345"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:5:5-54:19
+12        android:allowBackup="true"
+12-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\Dhanush\.gradle\caches\transforms-3\ecbd23666767c8ec76a81939f74c71e4\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Bubbleshoter12345" >
+22-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:13:9-55
+23        <activity
+23-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:15:9-27:20
+24            android:name="com.example.bubbleshoter12345.GameActivity"
+24-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:16:13-41
+25            android:exported="true" >
+25-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:17:13-36
+26            <intent-filter>
+26-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:21:17-77
+29-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31
+32            <meta-data
+32-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:24:13-26:36
+33                android:name="android.app.lib_name"
+33-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:25:17-52
+34                android:value="" />
+34-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:26:17-33
+35        </activity>
+36        <activity
+36-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:28:9-40:20
+37            android:name="com.example.bubbleshoter12345.LevelActivity"
+37-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:29:13-42
+38            android:exported="true" >
+38-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:30:13-36
+39            <intent-filter>
+39-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:18:13-22:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:19:17-69
+40-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:19:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:21:17-77
+42-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:21:27-74
+43            </intent-filter>
+44
+45            <meta-data
+45-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:24:13-26:36
+46                android:name="android.app.lib_name"
+46-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:25:17-52
+47                android:value="" />
+47-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:26:17-33
+48        </activity>
+49        <activity
+49-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:41:9-53:20
+50            android:name="com.example.bubbleshoter12345.MainActivity"
+50-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:42:13-41
+51            android:exported="true" >
+51-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:43:13-36
+52            <intent-filter>
+52-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:18:13-22:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:19:17-69
+53-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:19:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:21:17-77
+55-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:21:27-74
+56            </intent-filter>
+57
+58            <meta-data
+58-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:24:13-26:36
+59                android:name="android.app.lib_name"
+59-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:25:17-52
+60                android:value="" />
+60-->C:\Users\Dhanush\AndroidStudioProjects\bubbleshoter12345\app\src\main\AndroidManifest.xml:26:17-33
+61        </activity>
+62    </application>
+63
+64</manifest>
